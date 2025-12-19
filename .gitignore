@@ -1,2 +1,2 @@
-.streamlit/
-meta_data/
+.streamlit/*
+meta_data/*
