@@ -1,3 +1,4 @@
 .streamlit/*
 meta_data/*
 !meta_data/meta_data.json
+.venv/*
