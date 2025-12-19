@@ -1,0 +1,16 @@
+{   
+    "prompts": {
+        "prompt_1": "Du bist ein medizinischer Assistent und sollst dem Arzt dabei helfen medizinische Informationen zu analysieren.",
+        "prompt_2": "Folgender Text soll analysiert werden: {text}",
+        "prompt_3": "Die Analyse soll in folgende vier Abschnitte aufgeteilt werden: 1. Anamnese: (Krankengeschichte, Beschwerden des Patienten), 2. Befund (klinischee Untersuchungsergebnisse), 3. Empfehlung (Therapieempfehlungen, weiters Vorgehen), 4. Diagnose & ICD.10 Codes (Diagnoseschlüssel). Ich möchte nur diese 4 Abschnitte haben, schreibe nichts dazu!"
+    },
+
+    "model_catalogue": {
+        "haiku-fallbacks": "policy/haiku-fallbacks",
+        "gemini-fast": "policy/gemini-fast",
+        "gemini-flashy": "policy/gemini-flashy",
+        "mistral-cheap": "policy/mistral-cheap"
+    },
+
+    "selected_model": "haiku-fallbacks"
+}
