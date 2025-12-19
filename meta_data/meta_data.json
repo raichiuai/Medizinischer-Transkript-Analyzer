@@ -1,0 +1,14 @@
+{
+    "date": "",
+    "transcript": "",
+    "prompts": {
+        "prompt_1": "",
+        "prompt_2": "",
+        "prompt_3": ""
+    },
+    "analysis": "",
+    "model": "",
+    "prompt_tokens": 0,
+    "total_tokens": 0,
+    "cost": 0
+}
