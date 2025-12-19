@@ -1,8 +1,9 @@
 {   
     "prompts": {
-        "prompt_1": "Du bist ein medizinischer Assistent und sollst dem Arzt dabei helfen medizinische Informationen zu analysieren.",
+        "prompt_1": "Du bist ein medizinischer Assistent und sollst dem Arzt dabei helfen medizinische Informationen zu extrahieren.",
         "prompt_2": "Folgender Text soll analysiert werden: {text}",
-        "prompt_3": "Die Analyse soll in folgende vier Abschnitte aufgeteilt werden: 1. Anamnese: (Krankengeschichte, Beschwerden des Patienten), 2. Befund (klinischee Untersuchungsergebnisse), 3. Empfehlung (Therapieempfehlungen, weiters Vorgehen), 4. Diagnose & ICD.10 Codes (Diagnoseschlüssel). Ich möchte nur diese 4 Abschnitte haben, schreibe nichts dazu!"
+        "prompt_3": "Die Extraktion soll in folgende vier Abschnitte aufgeteilt werden: Anamnese: (Krankengeschichte, Beschwerden des Patienten), Befund (klinischee Untersuchungsergebnisse), Empfehlung (Therapieempfehlungen, weiters Vorgehen), Diagnose & ICD.10 Codes (Diagnoseschlüssel). Ich möchte nur diese 4 Abschnitte haben, schreibe nichts dazu!",
+        "prompt_4": "Stelle sicher, dass das Outputformat immer gleich ist! Dazu gehört, dass die Überschriften immer die gleiche Schriftgröße haben."
     },
 
     "model_catalogue": {

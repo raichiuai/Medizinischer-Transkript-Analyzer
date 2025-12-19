@@ -24,7 +24,8 @@ if st.button("Analysieren"):
                 messages=[
                     {"role": "system", "content": config["prompts"]["prompt_1"]},
                     {"role": "user", "content": config["prompts"]["prompt_2"].format(text=text_input)},
-                    {"role": "user", "content": config["prompts"]["prompt_3"]}
+                    {"role": "user", "content": config["prompts"]["prompt_3"]},
+                    {"role": "user", "content": config["prompts"]["prompt_4"]}
                 ]
                 )
             
