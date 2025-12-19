@@ -6,9 +6,15 @@ from datetime import datetime
 with open('config.json', 'r') as f:
     config = json.load(f)
 
-st.title("Medizinische Transkript-Analyzer")
+st.title("Medizinischer Transkript-Analyzer")
 
-text_input = st.text_area("Fügen Sie hier das medizinische Transkript ein:", height=300)
+st.markdown("""
+Dieser Analyzer strukturiert deutsche medizinische Transkripte mittels künstlicher Intelligenz. 
+            Laden Sie Ihr ärztliches Gesprächsprotokoll hoch, um automatisch extrahierte Sektionen zu Anamnese, Befund, 
+            Diagnose und Therapieempfehlungen zu erhalten.
+""")
+
+text_input = st.text_area("Tranksript hier einfügen:", height=300)
 
 client = OpenAI(
     api_key = st.secrets["API_KEY"],
